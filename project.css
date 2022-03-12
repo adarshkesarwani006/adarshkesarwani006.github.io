@@ -1,0 +1,249 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;    
+    background-color: grey;    
+}
+
+.testing{
+    display: flex;
+    justify-content: space-evenly;
+}    
+
+.card{
+   padding: 1rem; 
+   width: 18rem;
+   height: 36rem;
+   margin-top: .5rem;
+   display: inline-block;
+   justify-content: space-evenly;
+   border-radius: 20px;
+   border-bottom: 5px solid black;
+   border-left: 5px solid black;
+   background-color: white;
+   overflow:scroll;
+}
+
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.testing {
+    animation-duration: 2s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+      
+    }
+   
+    to {
+      margin-left: 0%;
+      width: 100%;
+      
+    }
+  }
+
+/* Card 1 CSS Home */
+
+.myimage,.myname,.navigation,.myemail,.links,.heading,.aboutpara,.profInterest,.unprofInterest,.stapara,.bargraph,.work{
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0 .5rem 0;
+}
+
+.myimage>img{
+    border-radius: 50%;
+}
+
+.myname{
+    font-size: 1.75rem;
+    margin: .5rem 0 .5rem 0 ;
+    font-family: 'Pacifico', cursive;
+}
+
+u{
+    text-decoration: rgb(0, 0, 0) double underline;
+}
+
+.navigation>ul>li{
+    list-style: none;
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-family: 'Fira Sans', sans-serif;
+    border: 2px solid grey;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    padding: .4rem;
+    margin-left: -35px;
+}
+
+.navigation>ul>li:hover{
+    background-color: wheat;
+    border-radius: .5rem;
+    
+}
+
+.navigation,.myemail{
+    font-size: 1rem;
+}
+
+.myemail{
+    margin: 1rem 0 1rem 0 ;
+    font-size: 1.25rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Card 2 CSS About*/
+.heading{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    display: flex;
+}
+
+/* ProjectArea CSS */
+.projectarea{
+    width: 100%;
+    height: 36rem;
+    float: right;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 0 0 0;
+    overflow: scroll;
+}
+
+.projectarea::-webkit-scrollbar{
+    display: none;
+}
+
+.projecthead{
+    background-color: wheat;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    border-radius: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    list-style: none;   
+}
+
+.cardarea{
+    overflow: scroll;
+}
+
+.projectcard{
+    width: 95%;
+    height: 9.5rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    padding: .5rem;    
+}
+
+.projecttitle{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.20rem;
+    padding: 4px;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;   
+}
+
+.projectbox{
+    background-color: rgb(205, 228, 228);
+    width: 100%;
+    height:auto;
+    margin-top: 2px;
+    display: flex;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;    
+}
+
+.projectvideo{
+    width: 25%;
+    height: 8rem;
+    float: left;
+    border-right: 2px solid black;
+}
+
+.projectdesc{
+    background-color: whitesmoke;
+    width: 75%;
+    height: 8rem;
+    float: right;
+    overflow: scroll;
+}
+
+p{
+    padding: 5px;
+    margin: unset;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.projectdesc::-webkit-scrollbar{
+    display: none;
+}
+
+/* InternShip */
+.warn1{
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#warn2{
+    background-color:wheat;
+}
+
+.intern{
+    background-color: white;
+    height: auto;
+    margin-top: .25rem;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.intern>img{
+    border: 1px solid black;
+}
+
+/* Antenna css*/
+.antarea{
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+.anthead{
+    font-size: 1.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: rgb(0, 0, 0) underline;    
+}
+
+.antimg>img{
+    height: 8.5rem;
+    width: 15rem;
+    margin-top: .5rem;
+    border: 2px solid black;
+}

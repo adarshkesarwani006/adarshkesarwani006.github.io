@@ -1,0 +1,300 @@
+body{
+    background-color: grey;
+}
+
+.testing{
+    display: flex;
+    justify-content: space-evenly;
+}    
+
+.card{
+   padding: 1rem; 
+   width: 14.50rem;
+   height: 35.5rem;
+   margin-top: .5rem;
+   display: inline-block;
+   justify-content: space-evenly;
+   border-radius: 20px;
+   border-bottom: 5px solid black;
+   border-left: 5px solid black;
+   background-color: white;              
+   overflow:scroll;
+   
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.testing {
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+      
+    }
+  
+   
+    to {
+      margin-left: 0%;
+      width: 100%;
+      
+    }
+  }
+
+/* Card 1 CSS Home */
+
+.myimage,.myname,.navigation,.myemail,.links,.heading,.aboutpara,.profInterest,.unprofInterest,.stapara,.bargraph,.work{
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0 .5rem 0;
+    
+}
+
+.myimage>img{
+    border-radius: 50%;
+    
+}
+
+.myname{
+    font-size: 1.75rem;
+    margin: .5rem 0 .5rem 0 ;
+    font-family: 'Pacifico', cursive;
+}
+
+u{
+    text-decoration: rgb(0, 0, 0) double underline;
+    
+}
+
+.navigation>ul>li{
+    list-style: none;
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-family: 'Fira Sans', sans-serif;
+    border: 2px solid grey;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    padding: .4rem;
+    margin-left: -35px;    
+}
+
+.navigation>ul>li:hover{
+    background-color: wheat;
+    border-radius: .5rem;
+}
+
+.navigation,.myemail{
+    font-size: 1rem;
+}
+
+.myemail{
+    margin: 1rem 0 1rem 0 ;
+    font-size: 1.25rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Card 2 CSS About*/
+.heading{
+    font-size: 1.75rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.aboutpara,.profInterest,.unprofInterest{
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    border: 2px solid grey;
+    padding: .75rem;
+    font-family: 'Merriweather Sans', sans-serif;    
+}
+
+/* Card 3 CSS Skills*/
+.statpara>ul{
+    padding: 0.25rem;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.statpara>ul>li{
+    list-style: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: .90rem;
+    padding: 1.5px 1.5px;
+}
+
+/* Bar Graph */
+.stats{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.statnumber{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.skills{
+    margin-top: 2px;
+    display: flex;
+    border-radius: .25rem;
+    justify-content: space-evenly;   
+}
+
+#lang{
+    padding: 1px;
+    width: 55%;
+    overflow: hidden;
+    font-size: 1rem;
+    background-color: rgb(245, 195, 179);
+    border: 2px solid grey;
+}
+
+#design{
+    background-color: rgb(206, 245, 179);
+    border: 2px solid grey;
+    padding: 1px;
+    width: 55%;
+    overflow: hidden
+}
+
+#web{
+    background-color: rgb(179, 237, 245);
+    border: 2px solid grey;
+    padding: 1px;
+    width: 55%;
+    overflow: hidden
+}
+
+#and{
+    background-color: rgb(245, 179, 199);
+    border: 2px solid grey;
+    padding: 1px;
+    width: 55%;
+    overflow: hidden
+}
+
+#ml{
+    background-color: rgb(179, 186, 245);
+    border: 2px solid grey;
+    padding: 1px;
+    width: 55%;
+    overflow: hidden;
+}
+
+/* vertical Line */
+.verticalLine{
+    background-color: black;
+    width:2px;
+    height: 12.5rem;
+    position:absolute;
+}
+
+.horizontalLine{
+    width: 15%;
+    background-color: black;
+    height: 2px;
+    position: absolute;
+}
+
+/* Card 4 CSS Projects */
+
+.devtitle{
+    width: 100%;
+    font-size: 1.10rem;
+    margin-top: .5rem;
+    margin-left: 20px;
+    padding: .5rem .5rem;
+    border-radius: 1rem;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: whitesmoke;
+}
+
+.devtitle:hover{
+    background-color: wheat;
+}
+
+#oskills{
+    font-size: 1.50rem;
+}
+
+/* Card 5 CSS Work Experience */
+.verline{
+    background-color: black;
+    width:.25rem;
+    height: 27rem;
+    position:absolute;
+}
+
+.dot1{
+    background-color: rgb(44, 13, 128);
+    height: 1rem;
+    width: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-left: -5px;
+}
+
+.dot2{
+    background-color: rgb(44, 13, 128);
+    height: 1rem;
+    width: 1rem;
+    margin-top: 14rem;
+    border-radius: 1rem;
+    margin-left: -5px;
+}
+
+.content1{
+    background-color: whitesmoke;
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.content1:hover{
+    background-color: wheat;
+}
+
+h5,h4,p{
+    margin: unset;
+}
+
+.content2{
+    background-color: whitesmoke;
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+

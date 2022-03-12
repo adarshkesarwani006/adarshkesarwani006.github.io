@@ -1,0 +1,29 @@
+@media screen and (max-width: 400px){
+
+    .testing{
+      display: block;
+    }
+}
+@media screen and (max-width: 1024px){
+
+    .testing{
+      display: block;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+  .container{
+    display: block;
+    
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .horizontalLine{
+    width: 60%;
+    
+  }
+}
+
