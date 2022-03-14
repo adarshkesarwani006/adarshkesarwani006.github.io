@@ -237,8 +237,7 @@ p{
 
 .anthead{
     font-size: 1.5rem;
-    font-family: 'Merriweather Sans', sans-serif;
-    text-decoration: rgb(0, 0, 0) underline;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .antimg>img{
