@@ -202,6 +202,7 @@ p{
 /* InternShip */
 .warn1{
     background-color: white;
+    color: red;
     margin-top: 1rem;
     border-radius: 1rem;
     padding: 1.5rem;
@@ -215,7 +216,6 @@ p{
 }
 
 .intern{
-    background-color: white;
     height: auto;
     margin-top: .25rem;
     border-radius: 1rem;
