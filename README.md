@@ -1,6 +1,6 @@
 # Adarsh Kesarwani
 
-Namaste🙏 I'm Adarsh Kesarwani, an Electronics undergraduate at Gautam Buddha University, Greater Noida.
+Namaste🙏 I'm Adarsh Kesarwani, an Electronics Graduate from Gautam Buddha University, Greater Noida, Uttar Pradesh, India.
 
 I'm a Programmer, Web Developer, Android Developer, and Electronics enthusiast. I undertake various exciting side projects in these fields. Essentially, I consider myself a Jack of all trades, constantly honing my skills. I am continuously amazed and intrigued by the potential of current technology and its profound impact on people's lives.
 
