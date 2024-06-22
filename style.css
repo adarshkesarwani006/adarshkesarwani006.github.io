@@ -241,16 +241,16 @@ u{
 .verline{
     background-color: black;
     width:.25rem;
-    height: 27rem;
+    height: 30rem;
     position:absolute;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .dot1{
     background-color: rgb(44, 13, 128);
     height: 1rem;
     width: 1rem;
-    margin-top: 1rem;
+    margin-top: 13px;
     border-radius: 1rem;
     margin-left: -5px;
 }
@@ -259,7 +259,17 @@ u{
     background-color: rgb(44, 13, 128);
     height: 1rem;
     width: 1rem;
-    margin-top: 15rem;
+    margin-top: 127px;
+    border-radius: 1rem;
+    margin-left: -5px;
+}
+
+
+.dot3{
+    background-color: rgb(44, 13, 128);
+    height: 1rem;
+    width: 1rem;
+    margin-top: 127px;
     border-radius: 1rem;
     margin-left: -5px;
 }
